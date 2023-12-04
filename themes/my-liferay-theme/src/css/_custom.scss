@@ -1,0 +1,35 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+
+@import "liferay-font-awesome/scss/font-awesome";
+@import "liferay-font-awesome/scss/glyphicons";
+
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+//@import "clay/atlas-variables";
+
+.section-header .section-header-logo {
+  height: 80px;
+  width: auto;
+}
+
+.section-header .portlet {
+  margin: 0;
+}
+
+.section-header .navbar-nav .nav-link {
+  font-weight: 600;
+  padding: 0 1rem;
+}
+.section-footer .section-footer-logo {
+  height: 50px;
+  width: auto;
+}
+.my-blog-card{
+  .sticker-img, .aspect-ratio-item-fluid {
+    max-width: 150%;
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "themes/my-liferay-theme"
+        ]
+    }
+}

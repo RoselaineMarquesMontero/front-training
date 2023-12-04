@@ -1,0 +1,325 @@
+{
+    "availableLanguageIds": [
+        "en_US"
+    ],
+    "contentType": "journal",
+    "dataDefinitionFields": [
+        {
+            "customProperties": {
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "dataType": "image",
+                "requiredDescription": true,
+                "fieldReference": "image"
+            },
+            "defaultValue": {},
+            "fieldType": "image",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_US": "Image"
+            },
+            "localizable": true,
+            "name": "Image21544758",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "labelAtStructureLevel": true,
+                "confirmationErrorMessage": {
+                    "en_US": ""
+                },
+                "hideField": false,
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "en_US": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {},
+                "nativeField": false,
+                "confirmationLabel": {
+                    "en_US": ""
+                },
+                "fieldReference": "title",
+                "placeholder": {
+                    "en_US": ""
+                },
+                "dataSourceType": "",
+                "direction": [
+                    "vertical"
+                ]
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_US": "Title"
+            },
+            "localizable": true,
+            "name": "Text52863095",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "labelAtStructureLevel": true,
+                "confirmationErrorMessage": {
+                    "en_US": ""
+                },
+                "hideField": false,
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "en_US": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {},
+                "nativeField": false,
+                "confirmationLabel": {
+                    "en_US": ""
+                },
+                "fieldReference": "description",
+                "placeholder": {
+                    "en_US": ""
+                },
+                "dataSourceType": "",
+                "direction": [
+                    "vertical"
+                ]
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_US": "Description"
+            },
+            "localizable": true,
+            "name": "Text46023818",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "dataType": "string",
+                "fieldReference": "buttonColor"
+            },
+            "defaultValue": {},
+            "fieldType": "color",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_US": "Button Color"
+            },
+            "localizable": true,
+            "name": "Color28818532",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "labelAtStructureLevel": true,
+                "confirmationErrorMessage": {
+                    "en_US": ""
+                },
+                "hideField": false,
+                "dataType": "string",
+                "tooltip": {
+                    "en_US": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "visibilityExpression": "",
+                "requiredErrorMessage": {
+                    "en_US": ""
+                },
+                "fieldNamespace": "",
+                "objectFieldName": "",
+                "options": {},
+                "nativeField": false,
+                "confirmationLabel": {
+                    "en_US": ""
+                },
+                "fieldReference": "buttonLabel",
+                "placeholder": {
+                    "en_US": ""
+                },
+                "direction": [
+                    "vertical"
+                ]
+            },
+            "defaultValue": {
+                "en_US": ""
+            },
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_US": "Button Label"
+            },
+            "localizable": true,
+            "name": "Text43249235",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "customProperties": {
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "dataType": "link-to-page",
+                "fieldReference": "LinkToPage"
+            },
+            "defaultValue": {
+                "en_US": ""
+            },
+            "fieldType": "link_to_layout",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_US": "Link to Page"
+            },
+            "localizable": true,
+            "name": "LinkToLayout54612756",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_US": ""
+            }
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [
+            {
+                "dataLayoutRows": [
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Image21544758"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Text52863095"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Text46023818"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Color28818532"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Text43249235"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "LinkToLayout54612756"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "en_US": ""
+                },
+                "title": {
+                    "en_US": ""
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_US": "ST-Banner"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "en_US",
+    "description": {},
+    "name": {
+        "en_US": "ST-Banner"
+    },
+    "storageType": "default"
+}
