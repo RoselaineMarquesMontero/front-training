@@ -1,6 +1,6 @@
 <header class="bg-dark navbar navbar-dark py-4 section-header text-white">
 	<div class="container flex-column flex-lg-row justify-content-between text-break">
-		<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
+	<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 			<img class="section-header-logo" alt="${logo_description}" src="${site_logo}" />
 		</a>
 		<div class="align-items-center d-flex flex-column flex-lg-row mt-3 mt-lg-0">

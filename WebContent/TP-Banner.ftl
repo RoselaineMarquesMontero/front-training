@@ -19,11 +19,12 @@
     .btn-primary {
         color: #fff;
 
-        background-color: <#if (buttonColor.getData())??>$ {
-            buttonColor.getData()
-        }
-
-        <#else>#d4ab07</#if>border-color: #cfcfd0;
+        background-color: <#if (buttonColor.getData())??>
+        ${buttonColor.getData()};
+        <#else>
+        #d4ab07;
+        </#if>
+        border-color: #cfcfd0;
     }
 
     .jumbotron {

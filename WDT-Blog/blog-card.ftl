@@ -1,6 +1,3 @@
-<#-- Widget templates can be used to modify the look of a specific application. Please use the right panel to quickly
-	add commonly used variables. Autocomplete is also available and can be invoked by typing "${" . -->
-
 	<div class="my-blog-card container">
 		<div class="row">
 			<#if entries?has_content>
@@ -18,6 +15,7 @@
 									/images/cover_image_placeholder.jpg")}" />
 							</div>
 							<div class="card-body d-flex justify-content-center">
+							<#-- For local en the prefix of your site + /b/ -> there is an epic to make configurable also this display page prefix, validate for future trainings -->
 								<h3 class="card-title d-flex pt-1">
 									<a href="${" /b/" + curBlogEntry.getUrlTitle() }">${curBlogEntry.title}</a>
 								</h3>
