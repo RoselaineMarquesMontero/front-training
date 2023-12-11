@@ -1,0 +1,12 @@
+{
+  "bodyBgColor": { "cssVariableMapping": "body-bg", "value": "#CFCFD0" },
+  "brandColor1": { "cssVariableMapping": "brand-color-1", "value": "#D4AB07" },
+  "btnPrimaryBackgroundColor": { "cssVariableMapping": "btn-primary-background-color", "name": "brandColor1", "value": "#D4AB07" },
+  "btnPrimaryBorderColor": { "cssVariableMapping": "btn-primary-border-color", "name": "brandColor1", "value": "#D4AB07" },
+  "btnPrimaryHoverBackgroundColor": { "cssVariableMapping": "btn-primary-hover-background-color", "value": "#bd9700" },
+  "containerMaxXl": { "cssVariableMapping": "container-max-xl", "value": "1140px" },
+  "darkColor": { "cssVariableMapping": "dark", "value": "#343A40" },
+  "fontSizeBase": { "cssVariableMapping": "font-size-base", "value": "1rem" },
+  "h1FontSize": { "cssVariableMapping": "h1-font-size", "value": "2.5rem" },
+  "primaryColor": { "cssVariableMapping": "primary", "value": "#D4AB07" }
+}
