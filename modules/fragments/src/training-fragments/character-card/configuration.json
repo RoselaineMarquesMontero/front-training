@@ -1,0 +1,51 @@
+{
+  "fieldSets": [
+    {
+      "label": "box-configuration",
+      "fields": [
+        {
+          "name": "showTitle",
+          "label": "show-title",
+          "type": "checkbox",
+          "defaultValue": true
+        },
+        {
+          "name": "showBorder",
+          "label": "show-border",
+          "type": "checkbox",
+          "defaultValue": true
+        },
+        {
+          "name": "backgroundTransparent",
+          "label": "background-transparent",
+          "type": "checkbox",
+          "defaultValue": true
+        }
+      ]
+    },
+    {
+      "configurationRole": "style",
+      "label": "colors",
+      "fields": [
+        {
+          "name": "titleColor",
+          "label": "title-color",
+          "type": "colorPicker",
+          "defaultValue": "var(--brand-color-1)"
+        },
+        {
+          "name": "borderColor",
+          "label": "border-color",
+          "type": "colorPicker",
+          "defaultValue": "var(--brand-color-1)"
+        },
+        {
+          "name": "backgroundColor",
+          "label": "background-color",
+          "type": "colorPicker",
+          "defaultValue": "var(--brand-color-1)"
+        }
+      ]
+    }
+  ]
+}

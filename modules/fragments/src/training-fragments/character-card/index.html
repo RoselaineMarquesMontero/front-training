@@ -1,0 +1,21 @@
+<div class="
+    sw-character-card p-4
+    ${configuration.showBorder?then('sw-character-card--border','')}
+    ${configuration.backgroundTransparent?then('bg-transparent','')}
+  " style="
+    --sw-character-card-background-color: ${configuration.backgroundColor};
+    --sw-character-card-title-color: ${configuration.titleColor};
+    --sw-character-card-border-color:${configuration.borderColor};
+  ">
+  [#if configuration.showTitle]
+  <div class="sw-character-card__title mb-3">
+    <div data-lfr-editable-type="rich-text" data-lfr-editable-id="01-title">
+      Editable title
+    </div>
+  </div>
+  [/#if]
+
+  <a href="#placeholder" data-lfr-editable-id="02-link" data-lfr-editable-type="link" class="sw-character-card__link">
+    See details
+  </a>
+</div>
