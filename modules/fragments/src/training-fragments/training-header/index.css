@@ -1,0 +1,13 @@
+.section-header .section-header-logo {
+  height: 80px;
+  width: auto;
+}
+
+.section-header .portlet {
+  margin: 0;
+}
+
+.section-header .navbar-nav .nav-link {
+  font-weight: 600;
+  padding: 0 1rem;
+}

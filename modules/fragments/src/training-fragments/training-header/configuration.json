@@ -1,0 +1,27 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "hasNavigation",
+          "label": "has-navigation",
+          "type": "checkbox",
+          "defaultValue": true
+        },
+        {
+          "name": "showHeaderSearch",
+          "label": "show-header-search",
+          "type": "checkbox",
+          "defaultValue": false
+        },
+        {
+          "name": "logoCssClass",
+          "label": "logo-css-class",
+          "type": "text",
+          "dataType": "string",
+          "defaultValue": "anything"
+        }
+      ]
+    }
+  ]
+}
