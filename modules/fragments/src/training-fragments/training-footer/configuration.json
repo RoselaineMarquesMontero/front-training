@@ -1,14 +1,16 @@
 {
   "fieldSets": [
     {
+      "configurationRole": "style",
+      "label": "colors",
       "fields": [
         {
-          "dataType": "object",
-          "label": "text-color",
-          "name": "textColor",
-          "type": "colorPalette"
+          "name": "backgroundColor",
+          "label": "background-color",
+          "type": "colorPicker",
+          "defaultValue": "var(--brand-color-4)"
         }
       ]
     }
-]
+  ]
 }

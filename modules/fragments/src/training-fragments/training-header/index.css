@@ -1,3 +1,7 @@
+.section-header {
+  color: var(--white);
+}
+
 .section-header .section-header-logo {
   height: 80px;
   width: auto;

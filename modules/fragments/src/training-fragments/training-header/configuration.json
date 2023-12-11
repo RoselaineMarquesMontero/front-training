@@ -22,6 +22,18 @@
           "defaultValue": "anything"
         }
       ]
+    },
+    {
+      "configurationRole": "style",
+      "label": "colors",
+      "fields": [
+        {
+          "name": "backgroundColor",
+          "label": "background-color",
+          "type": "colorPicker",
+          "defaultValue": "var(--brand-color-4)"
+        }
+      ]
     }
   ]
 }
