@@ -6,30 +6,24 @@
         <p>
             <#if (description.getData())??>${description.getData()}</#if>
         </p>
-        <p><a class="btn btn-primary btn-lg" data-senna-off="true" href="${LinkToPage.getFriendlyUrl()}" role="button">
+        <p>
+          <a class="btn btn-primary btn-lg" data-senna-off="true" href="${LinkToPage.getFriendlyUrl()}" role="button"
+            style="
+              background-color: <#if (buttonColor.getData())??>${buttonColor.getData()}<#else>var(--primary)</#if>;
+              border-color: #cfcfd0;
+              color: #fff;
+              ">
                 <#if (buttonLabel.getData())??>
                     ${buttonLabel.getData()}
                 </#if> »
-            </a>
+          </a>
         </p>
     </div>
 </div>
 
 <style>
-    .btn-primary {
-        color: #fff;
-
-        background-color: <#if (buttonColor.getData())??>
-        ${buttonColor.getData()};
-        <#else>
-        #d4ab07;
-        </#if>
-        border-color: #cfcfd0;
-    }
-
     .jumbotron {
         color: #fff;
-        background: url(<#if (image.getData())?? && image.getData() !="">"${image.getData()}"
-        </#if>) no-repeat;
+        background: url(<#if (image.getData())?? && image.getData() !="">"${image.getData()}"</#if>) no-repeat;
     }
 </style>

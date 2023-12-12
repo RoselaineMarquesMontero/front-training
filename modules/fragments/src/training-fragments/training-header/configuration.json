@@ -1,0 +1,39 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "hasNavigation",
+          "label": "has-navigation",
+          "type": "checkbox",
+          "defaultValue": true
+        },
+        {
+          "name": "showHeaderSearch",
+          "label": "show-header-search",
+          "type": "checkbox",
+          "defaultValue": false
+        },
+        {
+          "name": "logoCssClass",
+          "label": "logo-css-class",
+          "type": "text",
+          "dataType": "string",
+          "defaultValue": "anything"
+        }
+      ]
+    },
+    {
+      "configurationRole": "style",
+      "label": "colors",
+      "fields": [
+        {
+          "name": "backgroundColor",
+          "label": "background-color",
+          "type": "colorPicker",
+          "defaultValue": "var(--brand-color-4)"
+        }
+      ]
+    }
+  ]
+}

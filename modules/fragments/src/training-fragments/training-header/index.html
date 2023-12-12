@@ -1,0 +1,40 @@
+<header class="navbar navbar-dark py-4 section-header" style="background-color: ${configuration.backgroundColor}">
+  <div class="container flex-column flex-lg-row justify-content-between text-break">
+    <span class="${configuration.logoCssClass}">
+      <img class="section-header-logo" data-lfr-editable-id="01-logo" data-lfr-editable-type="image" />
+    </span>
+
+    <div class="align-items-center d-flex flex-column flex-lg-row mt-3 mt-lg-0">
+      [#if configuration.hasNavigation]
+        <nav id="navigation" role="navigation">
+          <lfr-widget-nav></lfr-widget-nav>
+        </nav>
+      [/#if]
+
+      [#if themeDisplay.isSignedIn()]
+        <div class="autofit-col autofit-col-expand">
+          [#if configuration.showHeaderSearch]
+            <div class="justify-content-md-end mr-4 navbar-form" role="search">
+              [@liferay.search_bar /]
+            </div>
+          [/#if]
+        </div>
+
+        <div class="autofit-col">
+          [@liferay.user_personal_bar /]
+        </div>
+      [#else]
+        <span class="ml-lg-3 mt-4 mt-lg-0 sign-in">
+          <a
+						 class="btn btn-outline-light btn-sm"
+						 data-redirect="${portalUtil.isLoginRedirectRequired(request)?string}"
+						 href="${htmlUtil.escape(themeDisplay.getURLSignIn())}"
+						 id="sign-in"
+						 rel="nofollow">
+						${languageUtil.get(locale, "sign-in")}
+					</a>
+				</span>
+      [/#if]
+    </div>
+  </div>
+</header>

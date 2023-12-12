@@ -1,0 +1,5 @@
+theme-css:
+  clayURL: css/clay.css
+  mainURL: css/main.css
+  name: Theme CSS
+  type: themeCSS

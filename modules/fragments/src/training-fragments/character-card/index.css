@@ -1,0 +1,20 @@
+.sw-character-card {
+  background-color: var(--sw-character-card-background-color);
+  border-radius: 1rem;
+  position: relative;
+}
+
+.sw-character-card--border {
+  border: 0.25rem solid var(--sw-character-card-border-color);
+}
+
+.sw-character-card__title {
+  color: var(--sw-character-card-title-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sw-character-card__link,
+.sw-character-card__link:hover {
+  color: var(--sw-character-card-title-color);
+}
